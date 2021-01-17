@@ -17,7 +17,13 @@ the backend server should be localhost:8000.
 
 ## Frontend: 
 
+cd to frontend directory
+
 run `npm install` to install all node dependencies.
 
 run `npm run start` to start the webpack dev server for frontend app.
+
+the frontend server should be localhost:8083.
+
+
 
