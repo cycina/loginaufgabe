@@ -6,7 +6,7 @@ import Login from "./auth/Login";
 import Logout from "./auth/Logout";
 import Signup from "./auth/Signup";
 import UserProfile from "./auth/UserProfile";
-import NoMatch from "./NoMatch";
+import PageNotFound from "./PageNotFound";
 
 const MainContent = () => (
     <div>
@@ -16,7 +16,7 @@ const MainContent = () => (
             <Route path="/logout" component={Logout}/>
             <Route path="/signup" component={Signup}/>
             <Route path="/profile" component={RequireAuth(UserProfile)}/>
-            <Route component={NoMatch}/>
+            <Route component={PageNotFound}/>
         </Switch>
     </div>
 );

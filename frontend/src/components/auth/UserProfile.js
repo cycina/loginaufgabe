@@ -23,8 +23,6 @@ class UserProfile extends Component {
                 <div className="mx-2">
                     <h4>username: {user.username}</h4>
                     <h4>email: {user.email}</h4>
-                    
-
                 </div>
             );
         }
@@ -37,7 +35,7 @@ class UserProfile extends Component {
                 {this.renderUser()}
                 {" "}
                 <hr />
-               
+
             </div>
         );
     }
@@ -49,4 +47,4 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps, { getUserProfile } )(UserProfile);
+export default connect(mapStateToProps, { getUserProfile })(UserProfile);
