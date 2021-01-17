@@ -2,7 +2,6 @@ import React, { Component } from "react";
 // import PropTypes from "prop-types";
 import { reduxForm, Field, propTypes } from "redux-form";
 import { required } from "redux-form-validators"
-
 import { renderField, renderError} from "../../utils/renderUtils";
 import { loginUser } from "../../actions/authActions";
 
